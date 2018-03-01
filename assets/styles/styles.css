@@ -1,0 +1,64 @@
+body {
+  background: #51287a;
+  text-align: center;
+}
+
+button:focus,
+input:focus {
+  outline    : none;
+  color      : transparent;
+  text-shadow: 0 0 0 #f4eaff;
+}
+
+.title {
+  color          : #f4eaff;
+  text-decoration: underline;
+  font-size      : 3.25rem;
+}
+
+.container {
+  width : 60%;
+  margin: 0 auto;
+}
+
+.search {
+  display: inline-block;
+  margin : 0 auto;
+}
+
+.srchIn {
+  border       : none;
+  border-bottom: solid 2px #f4eaff;
+  background   : #51287a;
+  color        : #f4eaff;
+  text-align   : center;
+  padding      : 5px 0;
+}
+
+.srchBtn,
+.srchRnd {
+  background: white;
+  background: #51287a;
+  color     : #f4eaff;
+  border    : solid 1px #f4eaff;
+  padding   : 5px;
+  cursor    : pointer;
+}
+
+.resTitle {
+  text-decoration: underline;
+  text-transform : uppercase;
+}
+
+.results {
+  transition: all 0.4s ease-out;
+  color     : #f4eaff;
+  cursor    : pointer;
+}
+
+.results:hover {
+  transform : scale(1.2);
+  margin    : 40px 0;
+  background: #401f61;
+  color     : #f4eaff;
+}
