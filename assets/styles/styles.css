@@ -51,14 +51,16 @@ input:focus {
 }
 
 .results {
-  transition: all 0.4s ease-out;
-  color     : #f4eaff;
-  cursor    : pointer;
+  -webkit-transition: all 0.4s ease-out;
+  transition        : all 0.4s ease-out;
+  color             : #f4eaff;
+  cursor            : pointer;
 }
 
 .results:hover {
-  transform : scale(1.2);
-  margin    : 40px 0;
-  background: #401f61;
-  color     : #f4eaff;
+  -webkit-transform: scale(1.2);
+  transform        : scale(1.2);
+  margin           : 40px 0;
+  background       : #401f61;
+  color            : #f4eaff;
 }
